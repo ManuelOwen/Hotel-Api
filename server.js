@@ -1,4 +1,4 @@
-import express from 'express';
+import express from'express'
 import bodyParser from 'body-parser';
 import config from './model/config.js';
 import cors from 'cors';
@@ -13,13 +13,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
  
-// app.use(Authroutes);
-// // ownerRoutes (app);
-// // userRoutes(app);
-// app.use(Menuroutes);
-// app.use(Drinkroutes);
-// app.use(Roomsroutes);
-// app.use(Customersroutes);
+
 
 // Setup CORS
 app.use(cors());
